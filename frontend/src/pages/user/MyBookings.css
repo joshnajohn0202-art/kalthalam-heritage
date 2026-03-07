@@ -1,0 +1,346 @@
+.mybookings-page {
+  display: flex;
+  flex-direction: column;
+  gap: 18px;
+}
+
+.mybookings-header h2 {
+  margin: 0 0 6px 0;
+  font-size: 24px;
+  color: #0f172a;
+}
+
+.mybookings-title {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 12px;
+}
+
+.mybookings-add-btn {
+  padding: 8px 16px;
+  border-radius: 10px;
+  border: none;
+  background: #1e293b;
+  color: #ffffff;
+  font-weight: 700;
+  cursor: pointer;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.mybookings-add-btn:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 8px 16px rgba(30, 41, 59, 0.2);
+}
+
+.mybookings-header p {
+  margin: 0;
+  color: #64748b;
+}
+
+.mybookings-empty {
+  color: #64748b;
+}
+
+.mybookings-empty-wrap {
+  display: grid;
+  gap: 14px;
+}
+
+.featured-cottages {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+  gap: 16px;
+}
+
+.featured-card {
+  border: 1px solid #e2e8f0;
+  border-radius: 12px;
+  overflow: hidden;
+  background: #fff;
+  box-shadow: 0 8px 20px rgba(15, 23, 42, 0.08);
+}
+
+.featured-main-img {
+  width: 100%;
+  height: 210px;
+  object-fit: cover;
+  background: #f8fafc;
+}
+
+.featured-body {
+  padding: 12px;
+  display: grid;
+  gap: 8px;
+}
+
+.featured-body h3 {
+  margin: 0;
+  color: #0f172a;
+}
+
+.featured-desc {
+  margin: 0;
+  color: #475569;
+  font-size: 14px;
+}
+
+.featured-meta {
+  margin: 0;
+  color: #334155;
+  font-size: 13px;
+  font-weight: 600;
+}
+
+.featured-amenities {
+  margin: 0;
+  color: #475569;
+  font-size: 13px;
+}
+
+.featured-sub-images {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 8px;
+}
+
+.featured-sub-card {
+  border: 1px solid #e2e8f0;
+  border-radius: 10px;
+  overflow: hidden;
+  background: #f8fafc;
+}
+
+.carousel-head {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 6px 8px;
+  border-bottom: 1px solid #e2e8f0;
+  background: #ffffff;
+}
+
+.carousel-head > span {
+  font-size: 12px;
+  font-weight: 700;
+  color: #1e293b;
+}
+
+.carousel-controls {
+  display: flex;
+  gap: 6px;
+}
+
+.carousel-controls button {
+  border: 1px solid #cbd5e1;
+  background: #f8fafc;
+  color: #1e293b;
+  width: 24px;
+  height: 24px;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 11px;
+  line-height: 1;
+}
+
+.featured-sub-card img {
+  width: 100%;
+  height: 110px;
+  object-fit: cover;
+}
+
+.featured-sub-card > span {
+  display: block;
+  padding: 6px 8px;
+  font-size: 12px;
+  font-weight: 700;
+  color: #1e293b;
+}
+
+.featured-actions {
+  display: flex;
+  gap: 8px;
+  flex-wrap: wrap;
+}
+
+.outside-video-wrap {
+  border: 1px solid #e2e8f0;
+  border-radius: 10px;
+  background: #f8fafc;
+  padding: 8px;
+}
+
+.outside-video-title {
+  margin: 0 0 6px 0;
+  font-size: 12px;
+  font-weight: 700;
+  color: #1e293b;
+}
+
+.outside-video {
+  width: 100%;
+  border-radius: 8px;
+  background: #000;
+  max-height: 180px;
+}
+
+.mybookings-table {
+  background: #ffffff;
+  border-radius: 14px;
+  box-shadow: 0 8px 20px rgba(15, 23, 42, 0.08);
+  overflow: hidden;
+}
+
+.mybookings-row {
+  display: grid;
+  grid-template-columns: 1.1fr 1.2fr 1.3fr 1.3fr 0.8fr 1.1fr;
+  gap: 10px;
+  padding: 14px 18px;
+  border-bottom: 1px solid #eef2f7;
+  align-items: center;
+}
+
+.mybookings-head {
+  background: #f8fafc;
+  font-weight: 700;
+  color: #0f172a;
+}
+
+.status-pill {
+  display: inline-flex;
+  justify-content: center;
+  padding: 4px 10px;
+  border-radius: 999px;
+  background: #e2e8f0;
+  color: #1e293b;
+  font-weight: 600;
+  font-size: 12px;
+  width: fit-content;
+}
+
+.actions {
+  display: flex;
+  gap: 8px;
+  flex-wrap: nowrap;
+  align-items: center;
+}
+
+.mybookings-page .btn-view,
+.mybookings-page .btn-edit,
+.mybookings-page .btn-delete {
+  padding: 8px 12px;
+  border-radius: 8px;
+  border: none;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.mybookings-page .btn-view {
+  background: #1e293b;
+  color: #ffffff;
+}
+
+.mybookings-page .btn-edit {
+  background: #1e293b;
+  color: #ffffff;
+}
+
+.mybookings-page .btn-delete {
+  background: #1e293b;
+  color: #ffffff;
+}
+
+.mybookings-page .btn-view:disabled,
+.mybookings-page .btn-edit:disabled,
+.mybookings-page .btn-delete:disabled {
+  opacity: 0.55;
+  cursor: not-allowed;
+}
+
+.mybookings-row input {
+  width: 100%;
+  border: 1px solid #cbd5e1;
+  border-radius: 8px;
+  padding: 6px 8px;
+  font-size: 12px;
+}
+
+.modal-overlay {
+  position: fixed;
+  inset: 0;
+  background: rgba(15, 23, 42, 0.55);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 2000;
+  padding: 20px;
+}
+
+.modal-card {
+  background: #ffffff;
+  border-radius: 14px;
+  padding: 20px;
+  width: 100%;
+  max-width: 420px;
+  display: grid;
+  gap: 12px;
+  box-shadow: 0 16px 40px rgba(0, 0, 0, 0.2);
+}
+
+.modal-row {
+  display: flex;
+  justify-content: space-between;
+  gap: 10px;
+  padding: 8px 10px;
+  background: #f8fafc;
+  border-radius: 8px;
+}
+
+.modal-field {
+  display: grid;
+  gap: 6px;
+  font-size: 13px;
+  color: #475569;
+}
+
+.modal-field input,
+.modal-field select {
+  padding: 10px;
+  border-radius: 8px;
+  border: 1px solid #e2e8f0;
+  background: #f8fafc;
+}
+
+.modal-field select[multiple] {
+  min-height: 120px;
+}
+
+.modal-actions {
+  display: flex;
+  gap: 10px;
+  justify-content: flex-end;
+}
+
+.modal-close {
+  padding: 10px 14px;
+  border-radius: 10px;
+  border: none;
+  background: #1e293b;
+  color: #ffffff;
+  font-weight: 700;
+  cursor: pointer;
+}
+
+@media (max-width: 768px) {
+  .mybookings-row {
+    grid-template-columns: 1fr;
+  }
+
+  .actions {
+    justify-content: flex-start;
+  }
+
+  .featured-cottages {
+    grid-template-columns: 1fr;
+  }
+}

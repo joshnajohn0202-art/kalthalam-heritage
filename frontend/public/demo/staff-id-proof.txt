@@ -1,0 +1,5 @@
+﻿Demo ID Proof
+Name: Alice Johnson
+Document: Aadhaar (Demo Placeholder)
+ID Number: XXXX-XXXX-1234
+Address: Nenmara, Palakkad, Kerala
